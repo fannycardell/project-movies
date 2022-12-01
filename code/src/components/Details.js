@@ -27,18 +27,15 @@ const Details = () => {
       <p>Page is loading...</p>
     );
   }
-  // hellaoj */
-  return (
 
+  return (
     <section className="details-container">
 
       <img
         className="image-backdrop"
-        src={movie.backdrop_path ? `${apiImageAddress}w1280${movie.backdrop_path}` : ''}
+        src={movie.backdrop_path ? `${apiImageAddress}original${movie.backdrop_path}` : ''}
         alt="poster" />
-
       <button className="movie-button" type="button" onClick={onBackButtonClick}>⬅ Movies</button>
-
       <div className="movie-container">
         <div className="movie-poster">
           <img src={movie.poster_path ? `${apiImageAddress}w185${movie.poster_path}` : ''} alt="profile" />
@@ -57,4 +54,3 @@ const Details = () => {
   )
 }
 export default Details;
-

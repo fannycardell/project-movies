@@ -27,7 +27,6 @@ const Library = () => {
                 <h1>{movie.title}</h1>
                 <p>Release date: {movie.release_date}</p>
               </div>
-
             </Link>
           </div>
         )
@@ -35,8 +34,6 @@ const Library = () => {
     </section>
   )
 };
-
-/* className="library-image" */
 
 export default Library;
 

@@ -82,13 +82,11 @@ img {
   display: flex;
   flex-direction: column;
   position: absolute;
-  
 }
 
 .image-backdrop {
   object-fit: cover;
   min-height: 100vh;
-
 }
 
 .movie-container {
@@ -133,11 +131,9 @@ img {
 
 /* TABLET */
 @media (min-width: 668px) and (max-width: 1024px) {
-
   .details-container {
     display:flex;
   }
-
   .movie-container {
     width: 65%;
   }
@@ -145,29 +141,23 @@ img {
 
 /* DESKTOP */
 @media (min-width: 1025px) {
-
-.library {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.release-container {
-  max-width: 25%;
-}
-
-.movie-poster {
-  border: 2px solid white;
-  width: fit-content;
-  height: auto;
-}
-
-.movie-container {
-  margin-left: 30px;
-}
-
-}
-
-.movie-title {
-  max-width: 400px;
-}
+  .library {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .release-container {
+    max-width: 25%;
+  }
+  .movie-poster {
+    border: 2px solid white;
+    width: fit-content;
+    height: auto;
+  }
+  .movie-container {
+    margin-left: 30px;
+  }
+  }
+  .movie-title {
+    max-width: 400px;
+  }
